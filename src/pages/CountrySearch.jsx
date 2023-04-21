@@ -41,6 +41,8 @@ export const CountrySearch = () => {
     <Section>
       <Container>
         <SearchForm handleSubmit={handleSubmit} />
+        {loader && <Loader />}
+        {error && <Heading>Please try again!</Heading>}
         {<CountryList countries={countries} />}
       </Container>
     </Section>

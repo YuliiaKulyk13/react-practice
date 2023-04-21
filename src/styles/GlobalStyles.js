@@ -45,7 +45,7 @@ export const GlobalStyles = css`
     padding: 0;
     border: none;
     font: inherit;
-    color: inherit;
+    color: white;
     background-color: transparent;
     cursor: pointer;
   }

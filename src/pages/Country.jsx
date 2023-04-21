@@ -30,7 +30,7 @@ export const Country = () => {
     <Section>
       <Container>
         {loader && <Loader />}
-        {error && <h2>Sorry there is no information!</h2>}
+        {error && <h2>Sorry there is no information!!!</h2>}
         <CountryInfo
           flag={flag}
           capital={capital}
